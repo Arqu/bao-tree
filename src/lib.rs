@@ -30,7 +30,7 @@ use iter::*;
 use tree::BlockNum;
 pub use tree::{BlockSize, ByteNum, ChunkNum};
 pub mod io;
-pub use iroh_blake3 as blake3;
+pub use blake3;
 
 #[cfg(test)]
 mod tests;
